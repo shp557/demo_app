@@ -3,6 +3,8 @@ DemoApp::Application.routes.draw do
 
   resources :users
 
+  match '/quotesfromprash',    to: 'static_pages#quotes',    via: 'get'
+
   root to: "users#index"
   
 

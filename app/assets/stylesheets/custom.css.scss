@@ -88,6 +88,20 @@ a {
   }
 }
 
+body.home-page {
+  background-image: image-url('prash.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-opacity: 0.4;
+}
+
+.hero-unit{
+    background-color: rgba(255, 255, 255, .4); // use rgba and set Opacity to 0 for transparent.
+ }
+
+ blockquote {
+    border-color: #ddd;
+}
 
 .text-muted {
     color: #999;
