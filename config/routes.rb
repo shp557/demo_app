@@ -4,6 +4,7 @@ DemoApp::Application.routes.draw do
   resources :users
 
   match '/quotesfromprash',    to: 'static_pages#quotes',    via: 'get'
+  match '/facesbyrohit',    to: 'static_pages#faces',    via: 'get'
 
   root to: "users#index"
   

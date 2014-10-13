@@ -95,6 +95,12 @@ body.home-page {
   background-opacity: 0.4;
 }
 
+body.faces-page {
+  background-image: image-url('rohit_cover.png');
+  background-size: 15%;
+  background-opacity: 0.4;
+}
+
 .hero-unit{
     background-color: rgba(255, 255, 255, .4); // use rgba and set Opacity to 0 for transparent.
  }
@@ -108,9 +114,15 @@ body.home-page {
 }
 
 .container .text-muted {
-margin: 20px 0;
+  margin: 20px 0;
 }
 
+.vcenter {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
 
+  display: flex;
+  align-items: center;
+}
 
 @import "bootstrap-responsive";
